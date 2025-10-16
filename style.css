@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.caixa {
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    border-radius: 50px;
+    height: 29, 7cm;
+    width: 21cm;
+    margin-top: 20px;
+}
+
+.titulos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+
+
+}
+
+h1 {
+    background-color: #8497af;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+h2 {
+    background-color: #E7E7E7;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 7px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+br {
+    line-height: 1px;
+}
+
+.tabela-principal {
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+input {
+    border: none;
+    outline: none;
+    margin-left: 3px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+input::placeholder {
+    color: wheat;
+    opacity: 25%;
+}
+
+textarea {
+    border: none;
+    outline: none;
+    margin-left: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+}
+
+textarea::placeholder {
+    color: wheat;
+    opacity: 25%;
+}
+
+.mes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: 20px 58px 20px 0;
+
+}
+
+.mes-escrito {
+    background-color: #8497af;
+    color: black;
+    font-size: 16pt;
+}
+
+.mes-escrever {
+    background-color: #8497af;
+    ;
+    border: none;
+    color: black;
+    font-size: 13pt;
+}
+
+.principal {
+    display: flex;
+}
+
+.orador {
+    margin-top: 60px;
+}
+
+.orador img {
+    width: 450px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.dia {
+    border-bottom: 2px solid black;
+}
+
+.escrito-dia {
+    text-align: end;
+    background-color: #8497af;
+
+    font-size: 13pt;
+}
+
+.escrever-dia {
+    background-color: #8497af;
+    color: white;
+    font-size: 12pt;
+}
+
+.escrito {
+
+    text-align: end;
+
+    color: black;
+    font-size: 13pt;
+}
+
+.escrever {
+    margin-top: 2px;
+
+    color: black;
+    font-size: 12pt;
+
+}
+
+#tema {
+    margin-top: 3px;
+    width: 95%;
+    min-height: 12pt;
+    font-size: 12pt;
+    overflow: hidden;
+    resize: none;
+}
+
+.botao {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    margin-left: 70%;
+    border-radius: 15px;
+    background-color: #737174;
+    color: azure;
+    cursor: pointer;
+}
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #area-impressao,
+    #area-impressao * {
+        visibility: visible;
+    }
+
+    #area-impressao {
+        width: 210mm;
+        /* Largura A4 */
+        height: 297mm;
+        /* Altura A4 */
+    }
+}

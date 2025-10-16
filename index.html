@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Reunião</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="caixa" id="area-impressao">
+        <div class="titulos">
+            <h1>Programação da Reunião Pública</h1>
+            <h2>Congregação Colina</h2>
+        </div>
+
+        <div class="mes">
+            <table class="tabela-mes">
+                <tr class="mes-escrito">
+                    <td>
+                        <p>Mês:</p>
+                    </td>
+                    <td><input class="mes-escrever" type="text" name="mes" placeholder="Digite o Mês"
+                            autocomplete="off"></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="principal">
+            <div class="orador">
+                <img src="orador (2).png">
+            </div>
+
+            <div>
+                <table class="tabela-principal">
+                    <tr class="dia">
+                        <td class="escrito-dia">Dia:</td>
+                        <td class="escrever-dia"><input class="escrever-dia" type="text" name="data"
+                                placeholder="Digite o dia" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Presidente:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="presidente"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Orador:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="orador"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Congregação:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="Congregação"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Tema:</td>
+                        <td class="escrever"><textarea class="escrever" id="tema" name="mensagem" rows="1" cols="24"
+                                placeholder="Digite o nome" oninput="autoResize(this)" autocomplete="off"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Leitor:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="leitor"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Oração Final:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="oracao-final"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+                </table>
+
+                
+
+                <table class="tabela-principal">
+                    <tr class="dia">
+                        <td class="escrito-dia">Dia:</td>
+                        <td class="escrever-dia"><input class="escrever-dia" type="text" name="data"
+                                placeholder="Digite o dia" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Presidente:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="presidente"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Orador:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="orador"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Congregação:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="Congregação"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Tema:</td>
+                        <td class="escrever"><textarea class="escrever" id="tema" name="mensagem" rows="1" cols="24"
+                                placeholder="Digite o nome" oninput="autoResize(this)" autocomplete="off"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Leitor:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="leitor"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Oração Final:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="oracao-final"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+                </table>
+
+                
+
+                <table class="tabela-principal">
+                    <tr class="dia">
+                        <td class="escrito-dia">Dia:</td>
+                        <td class="escrever-dia"><input class="escrever-dia" type="text" name="data"
+                                placeholder="Digite o dia" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Presidente:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="presidente"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Orador:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="orador"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Congregação:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="Congregação"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Tema:</td>
+                        <td class="escrever"><textarea class="escrever" id="tema" name="mensagem" rows="1" cols="24"
+                                placeholder="Digite o nome" oninput="autoResize(this)" autocomplete="off"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Leitor:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="leitor"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Oração Final:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="oracao-final"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+                </table>
+
+                
+
+                <table class="tabela-principal">
+                    <tr class="dia">
+                        <td class="escrito-dia">Dia:</td>
+                        <td class="escrever-dia"><input class="escrever-dia" type="text" name="data"
+                                placeholder="Digite o dia" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Presidente:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="presidente"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Orador:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="orador"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Congregação:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="Congregação"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Tema:</td>
+                        <td class="escrever"><textarea class="escrever" id="tema" name="mensagem" rows="1" cols="24"
+                                placeholder="Digite o nome" oninput="autoResize(this)" autocomplete="off"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Leitor:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="leitor"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Oração Final:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="oracao-final"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+                </table>
+
+                
+
+                <table class="tabela-principal">
+                    <tr class="dia">
+                        <td class="escrito-dia">Dia:</td>
+                        <td class="escrever-dia"><input class="escrever-dia" type="text" name="data"
+                                placeholder="Digite o dia" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Presidente:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="presidente"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Orador:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="orador"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Congregação:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="Congregação"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Tema:</td>
+                        <td class="escrever"><textarea class="escrever" id="tema" name="mensagem" rows="1" cols="24"
+                                placeholder="Digite o nome" oninput="autoResize(this)" autocomplete="off"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Leitor:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="leitor"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+
+                    <tr>
+                        <td class="escrito">Oração Final:</td>
+                        <td class="escrever"><input class="escrever" type="text" name="oracao-final"
+                                placeholder="Digite o nome" autocomplete="off"></td>
+                    </tr>
+                </table>
+
+                
+
+
+            </div>
+        </div>
+    </main>
+    <button class="botao" onclick="window.print()">Imprimir Programação</button>
+    <script>
+        function autoResize(textarea) {
+            textarea.style.height = "auto";
+            textarea.style.height = textarea.scrollHeight + "px";
+        }
+    </script>
+</body>
+
+
+</html>
