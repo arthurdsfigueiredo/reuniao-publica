@@ -9,7 +9,7 @@ body {
 
 }
 
-.caixa {
+/*.caixa {
     margin-left: auto;
     margin-right: auto;
     border: 5px solid black;
@@ -17,7 +17,7 @@ body {
     height: 29, 7cm;
     width: 21cm;
     margin-top: 20px;
-}
+}*/
 
 .titulos {
     display: flex;
